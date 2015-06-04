@@ -187,16 +187,6 @@ class Request extends Nette\Object
 
 
 	/**
-	 * Checks if the method is POST.
-	 * @return bool
-	 */
-	public function isPost()
-	{
-		return strcasecmp($this->method, 'post') === 0;
-	}
-
-
-	/**
 	 * Sets the flag.
 	 * @param  string
 	 * @param  bool

@@ -25,9 +25,6 @@ class Route extends Nette\Object implements Application\IRouter
 	const PRESENTER_KEY = 'presenter';
 	const MODULE_KEY = 'module';
 
-	/** @deprecated */
-	const CASE_SENSITIVE = 256;
-
 	/** @internal url type */
 	const HOST = 1,
 		PATH = 2,
